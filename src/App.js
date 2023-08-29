@@ -1,24 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+// import { Father } from "./component/Father";
+import Programmer from "./component/Extends";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      {/* <div className="App">react 通信方式</div>
+      <Father /> 第一个方法，使用props和callback方式 */}
+      <div>
+        <h1>继承</h1>
+        <Programmer />
+      </div>
+    </>
   );
 }
 
